@@ -1,0 +1,12 @@
+<resources>
+    <string name="application_name">Just WebRTC</string>
+    <string name="permission_message">WebRTC require camera and microphone</string>
+    <string name="permission_get">Get permission</string>
+    <string name="strange">O_o</string>
+
+    <string name="phone_a">Phone A</string>
+    <string name="phone_b">Phone B</string>
+    <string name="waiting_for">Waiting for %1$s</string>
+
+    <string name="the_device_has_no_camera">The device has no camera</string>
+</resources>
