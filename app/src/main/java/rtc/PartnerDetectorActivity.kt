@@ -79,7 +79,7 @@ class PartnerDetectorActivity : AppCompatActivity() {
     }
 
     private fun broadcastListener() {
-        val single = Single.fromCallable<String> {
+        val single = Single.fromCallable {
             DatagramSocket(null).use {
                 it.soTimeout = 5 * 1000
                 it.reuseAddress = true
